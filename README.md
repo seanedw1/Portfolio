@@ -13,10 +13,10 @@
 * [Featured repos](#featured-repos)
 * [Social media](#social-media)
 * [contributors](#contributors)
+
+
 ## Purpose
-
 This repo serves as my Portfolio.
-
 
 ## Angular
 [Here](https://github.com/seanedw1/Portfolio/tree/master/Angular)
