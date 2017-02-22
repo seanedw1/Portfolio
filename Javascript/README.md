@@ -11,15 +11,20 @@
 ## Demo1
 
 jquery ajax call to weather underground api
-* [Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo1/wuapi_yourName.html)
+[Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo1/wuapi_yourName.html)
 
 ## Demo2
 
 google maps api key example
-* [Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo2/index.html)
+[Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo2/index.html)
 
 
 ## Demo3
+
+Jquery todo list
+[Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo3/index.html)
+
+
 
 ## Demo4
 

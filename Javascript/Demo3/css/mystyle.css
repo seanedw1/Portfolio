@@ -1,0 +1,48 @@
+body{
+background-color:#003366;
+}
+
+
+
+#container{
+	background-color: #6699CC;
+	padding: 60px;
+	width: 900px;
+		border-radius: 25px;
+		overflow: auto;
+		margin: 0 auto;
+}
+
+li{
+	list-style-type: none;
+}
+
+.sortlist{
+	min-height: 30px;
+}
+
+#wrapper{
+	padding: 30px;
+	background-color:#C0C0C0;
+	margin: 50px 50px 50px 50px;
+	width: 800px;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+
+hr{
+width: 70%; 
+margin-left: 15%;
+}
+
+#jk{
+margin-top: 5px;
+	float: right;
+}
+
+
+
+h1,h2{
+	text-align: center;
+}
