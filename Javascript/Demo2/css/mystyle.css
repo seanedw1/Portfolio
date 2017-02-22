@@ -1,0 +1,17 @@
+#map{
+	width: 500px;
+	height: 500px;
+	margin:0 auto;
+	border: 5px solid black;
+}
+
+
+ol{
+	width: 300px;
+	margin: 0 auto;
+}
+
+h1{
+	text-align: center;
+	color: #41deac;
+}
