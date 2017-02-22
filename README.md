@@ -37,7 +37,7 @@ This repo serves as my Portfolio.
 ## Gh-pages
 
 Github pages
-[Learn more](https://seanedw1.github.io/Portfolio/Javascript/Demo1/wuapi_yourName.html)
+[Learn more](https://pages.github.com/)
 
 
 
