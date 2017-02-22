@@ -3,10 +3,10 @@
 
 ## Table of contents
 
-* [Purpose](#Purpose)
-* [Gh-pages](#Gh-pages)
-* [Featured repos](#Featured-Repos)
-* [Social media](#Social-media)
+* [Purpose](#purpose)
+* [Gh-pages](#gh-pages)
+* [Featured repos](#featured-repos)
+* [Social media](#social-media)
 * [contributors](#contributors)
 
 ## Purpose
