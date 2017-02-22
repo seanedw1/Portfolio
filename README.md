@@ -1,8 +1,32 @@
-# Portfolio
-Portfolio files
+# Sean Edwards: Portfolio
 
 
-### Repos to check out
-[Node URL-Shortener API](https://github.com/seanedw1/URL-Shortener)
-[React Native classifieds app](https://github.com/seanedw1/FsClass)
-[Debugging npm package](https://github.com/seanedw1/remer)
+## Table of contents
+
+* [Purpose](#Purpose)
+* [Gh-pages](#Gh-pages)
+* [Featured repos](#Featured-Repos)
+* [Social media](#Social-media)
+
+## Purpose
+
+This repo serves as my Portfolio.
+
+
+## Gh-pages
+
+
+
+## Featured Repos
+* [Node URL-Shortener API](https://github.com/seanedw1/URL-Shortener)
+* [React Native classifieds app](https://github.com/seanedw1/FsClass)
+* [Debugging npm package](https://github.com/seanedw1/remer)
+* [Ionic and firebase chat app](https://github.com/seanedw1/smsapp1)
+
+
+## Social media
+
+* [Facebook](https://www.facebook.com/sean.ed.524)
+* [Github](https://github.com/seanedw1)
+* [Linkedin](https://www.linkedin.com/in/sean-edwards-729b2545/)
+* [Twitter](https://twitter.com/Seanedw1)
