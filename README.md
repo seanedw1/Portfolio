@@ -7,6 +7,7 @@
 * [Gh-pages](#Gh-pages)
 * [Featured repos](#Featured-Repos)
 * [Social media](#Social-media)
+* [contributors](#contributors)
 
 ## Purpose
 
@@ -15,6 +16,7 @@ This repo serves as my Portfolio.
 
 ## Gh-pages
 
+Github pages
 
 
 ## Featured Repos
@@ -30,3 +32,7 @@ This repo serves as my Portfolio.
 * [Github](https://github.com/seanedw1)
 * [Linkedin](https://www.linkedin.com/in/sean-edwards-729b2545/)
 * [Twitter](https://twitter.com/Seanedw1)
+
+
+##### Contributors
+[View Contributors](https://github.com/seanedw1/Portfolio/graphs/contributors)
