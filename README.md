@@ -3,20 +3,19 @@
 
 ## Table of contents
 
-* [Purpose](#purpose)
 * [Angular](#angular)
 * [FrontEnd](#frontend)
 * [Javascript](#javascript)
 * [Node](#node)
 * [PHP](#php)
+
+
+* [Purpose](#purpose)
 * [Gh-pages](#gh-pages)
 * [Featured repos](#featured-repos)
 * [Social media](#social-media)
 * [contributors](#contributors)
 
-
-## Purpose
-This repo serves as my Portfolio.
 
 ## Angular
 [Here](https://github.com/seanedw1/Portfolio/tree/master/Angular)
@@ -33,6 +32,8 @@ This repo serves as my Portfolio.
 ## PHP
 [Here](https://github.com/seanedw1/Portfolio/tree/master/Php)
 
+## Purpose
+This repo serves as my Portfolio.
 
 ## Gh-pages
 
