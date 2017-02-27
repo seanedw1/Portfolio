@@ -1,5 +1,8 @@
 # Sean Edwards: Portfolio
 
+## Purpose
+This repo serves as my Portfolio.
+
 
 ## Table of contents
 
@@ -8,38 +11,30 @@
 * [Javascript](#javascript)
 * [Node](#node)
 * [PHP](#php)
-
-
-* [Purpose](#purpose)
 * [Gh-pages](#gh-pages)
 * [Featured repos](#featured-repos)
 * [Social media](#social-media)
 * [contributors](#contributors)
 
-
 ## Angular
-[Here](https://github.com/seanedw1/Portfolio/tree/master/Angular)
+* [Here](https://github.com/seanedw1/Portfolio/tree/master/Angular)
 
 ## FrontEnd
-[Here](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd)
+* [Here](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd)
 
 ## Javascript
-[Here](https://github.com/seanedw1/Portfolio/tree/master/Javascript)
+* [Here](https://github.com/seanedw1/Portfolio/tree/master/Javascript)
 
 ## Node
-[Here](https://github.com/seanedw1/Portfolio/tree/master/Node)
+* [Here](https://github.com/seanedw1/Portfolio/tree/master/Node)
 
 ## PHP
-[Here](https://github.com/seanedw1/Portfolio/tree/master/Php)
-
-## Purpose
-This repo serves as my Portfolio.
+* [Here](https://github.com/seanedw1/Portfolio/tree/master/Php)
 
 ## Gh-pages
 
 Github pages
-[Learn more](https://pages.github.com/)
-
+* [Learn more](https://pages.github.com/)
 
 
 ## Featured Repos
@@ -47,7 +42,6 @@ Github pages
 * [React Native classifieds app](https://github.com/seanedw1/FsClass)
 * [Debugging npm package](https://github.com/seanedw1/remer)
 * [Ionic and firebase chat app](https://github.com/seanedw1/smsapp1)
-
 
 ## Social media
 
@@ -57,5 +51,6 @@ Github pages
 * [Twitter](https://twitter.com/Seanedw1)
 
 
+
 ##### Contributors
-[View Contributors](https://github.com/seanedw1/Portfolio/graphs/contributors)
+* [View Contributors](https://github.com/seanedw1/Portfolio/graphs/contributors)
