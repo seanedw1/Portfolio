@@ -1,0 +1,88 @@
+/* Component Stylesheet 
+============================================================
+============================================================*/
+
+section{
+	height: 180px;
+	background-color: #272727;
+	text-align: center;
+	color: #969696;
+}
+
+
+a{
+		color: #969696;
+
+}
+
+footer{
+	color:#fefff6;
+background-color: #5b9638;
+height: 300px;
+}
+
+ul{
+	clear: both;
+margin: bottom;
+}
+
+li{
+	margin-right: 10px;
+	margin-bottom: 400px;
+	display: inline;
+}
+
+
+#flist{
+	margin-bottom: 10px;
+}
+
+#flist li{
+	text-transform: uppercase;
+font-size: 1em;
+}
+
+#flist li a{
+		color: #f3f3f3;
+
+}
+
+#slist{
+	padding-bottom: 20px;
+}
+
+#slist li{
+}
+
+
+#up{
+	margin-top:15px;
+	float: right;
+	display: block;
+	margin-right: 60px;
+}
+
+div{
+	max-width: 100%;
+	clear: both;
+margin: 0 auto;
+}
+
+.border{
+	padding-left: 15px;
+border-left:1px solid #fefff6;
+
+}
+
+img{
+	max-width: 100%;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p{
+	text-align: center;
+}
