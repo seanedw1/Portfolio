@@ -11,7 +11,7 @@
 ## Demo1
 
 jquery ajax call to weather underground api
-[Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo1/wuapi_yourName.html)
+[Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo1/index.html)
 
 ## Demo2
 
