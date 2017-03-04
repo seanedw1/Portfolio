@@ -4,60 +4,20 @@
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>API</title>
+<title>Google map api</title>
 <link href="css/mystyle.css" rel="stylesheet">
 </head>
 <body>
 
 <h1>Google map api</h1>
 
-<div id="list">
-  <ol>
-    <li>hometown marker animation</li>
-    <li>traffic layer</li>
-    <li>disable the default ui</li>
-  </ol>
-</div>
-
 <br>
 <br>
 <div id="map"></div>
-<script type="text/javascript">
-
-var map;
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 43.731476, lng: -79.762545},
-    zoom: 8,
-        disableDefaultUI: true
-  });
-
-var trafficLayer = new google.maps.TrafficLayer();
-  trafficLayer.setMap(map);
-
-marker = new google.maps.Marker({ //set marker
-    map: map,
-    draggable: true,
-    animation: google.maps.Animation.DROP, //style of animation
-    position: {lat: 43.731476, lng: -79.762545}
-  });
-  marker.addListener('click', toggleBounce); //adds bounce on click
-}
-
-function toggleBounce() { //bounce toggle
-  if (marker.getAnimation() !== null) {
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  };
-
-}
-
- </script>
   <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGB1SqedXS4hYMeBI2gXY1gCn8WjLlqjw
 &callback=initMap">
     </script>
-
+    <script src="js/map.js"></script>
 </body>
 </html>
