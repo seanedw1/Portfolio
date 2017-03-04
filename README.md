@@ -17,12 +17,21 @@ This repo serves as my Portfolio.
 * [contributors](#contributors)
 
 ## Angular
+
+  This folder contains working demos of angular 1.
+
 * [Here](https://github.com/seanedw1/Portfolio/tree/master/Angular)
 
 ## FrontEnd
+
+This folder contains working demos of front end components and wireframes.
+
 * [Here](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd)
 
 ## Javascript
+
+This folder contains working javascript demos.
+
 * [Here](https://github.com/seanedw1/Portfolio/tree/master/Javascript)
 
 ## Node
