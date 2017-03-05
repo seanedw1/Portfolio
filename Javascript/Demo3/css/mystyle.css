@@ -1,24 +1,18 @@
 body{
-background-color:#003366;
+	background-color:#003366;
 }
 
-
+.sortlist{
+	min-height: 30px;
+}
 
 #container{
 	background-color: #6699CC;
 	padding: 60px;
 	width: 900px;
-		border-radius: 25px;
-		overflow: auto;
-		margin: 0 auto;
-}
-
-li{
-	list-style-type: none;
-}
-
-.sortlist{
-	min-height: 30px;
+	border-radius: 25px;
+	overflow: auto;
+	margin: 0 auto;
 }
 
 #wrapper{
@@ -30,18 +24,19 @@ li{
 	overflow: auto;
 }
 
-
-hr{
-width: 70%; 
-margin-left: 15%;
-}
-
 #jk{
-margin-top: 5px;
+	margin-top: 5px;
 	float: right;
 }
 
+li{
+	list-style-type: none;
+}
 
+hr{
+	width: 70%;
+	margin-left: 15%;
+}
 
 h1,h2{
 	text-align: center;
