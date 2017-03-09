@@ -54,7 +54,7 @@ Github pages
 
 ## Social media
 
-* [Facebook](https://www.facebook.com/sean.ed.524)
+* [Facebook](https://www.facebook.com/Seanedw1/)
 * [Github](https://github.com/seanedw1)
 * [Linkedin](https://www.linkedin.com/in/sean-edwards-729b2545/)
 * [Twitter](https://twitter.com/Seanedw1)
