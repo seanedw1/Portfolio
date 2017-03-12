@@ -14,9 +14,9 @@
 
 ## Html & css footer
 
-* [Live demo](https://seanedw1.github.io/Portfolio/FrontEnd/Component2/component.html)
+* [Live demo](https://seanedw1.github.io/Portfolio/FrontEnd/Component2/index.html)
 
 
 ## Html & css Cta(jumbotron)
 
-* [Live demo](https://seanedw1.github.io/Portfolio/FrontEnd/Component3/component.html)
+* [Live demo](https://seanedw1.github.io/Portfolio/FrontEnd/Component3/index.html)
