@@ -14,7 +14,7 @@
 * [Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo1/index.html)
 
 
-## google maps api
+## Google maps api
 * [Files](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo2)
 * [Live demo](https://seanedw1.github.io/Portfolio/Javascript/Demo2/index.html)
 
