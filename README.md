@@ -20,7 +20,7 @@ This repo serves as my Portfolio.
 
   This folder contains working demos of angular 1.
 
-* [Employee system](https://github.com/seanedw1/Portfolio/tree/readme/Angular/Demo1)
+* [Employee system](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo1)
 
 ## FrontEnd
 
@@ -37,7 +37,7 @@ This folder contains working javascript demos.
 * [Jquery todo list](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo3)
 
 ## Node
-* [Jwt api](https://github.com/seanedw1/Portfolio/tree/readme/Node/Demo1)
+* [Jwt api](https://github.com/seanedw1/Portfolio/tree/master/Node/Demo1)
 
 ## PHP
 * [Here](https://github.com/seanedw1/Portfolio/tree/master/Php)
