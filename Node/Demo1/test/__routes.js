@@ -7,27 +7,27 @@
  const routes = [
    {
      description: 'Create an app',
-     route: 'api/v1/apps',
+     route: 'api/v1/betas',
      method: 'post',
    },
    {
      description: 'Read an app',
-     route: 'api/v1/apps',
+     route: 'api/v1/betas',
      method: 'get',
    },
    {
      description: 'Read an app by id',
-     route: 'api/v1/apps/:id',
+     route: 'api/v1/betas/:id',
      method: 'get',
    },
    {
      description: 'update an app',
-     route: 'api/v1/apps/:id',
+     route: 'api/v1/betas/:id',
      method: 'post',
    },
    {
      description: 'delete an app',
-     route: 'api/v1/apps/:id',
+     route: 'api/v1/betas/:id',
      method: 'delete',
    },
    {
@@ -58,31 +58,6 @@
    {
      description: 'Delete an user',
      route: 'api/v1/users/:id',
-     method: 'delete',
-   },
-   {
-     description: 'Create an Course',
-     route: 'api/v1/courses',
-     method: 'post',
-   },
-   {
-     description: 'Read an Course',
-     route: 'api/v1/courses',
-     method: 'get',
-   },
-   {
-     description: 'Read an Course by id',
-     route: 'api/v1/courses/:id',
-     method: 'get',
-   },
-   {
-     description: 'update an Course',
-     route: 'api/v1/courses/:id',
-     method: 'post',
-   },
-   {
-     description: 'delete an Course',
-     route: 'api/v1/courses/:id',
      method: 'delete',
    },
  ];
