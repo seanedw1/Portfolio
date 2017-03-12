@@ -1,4 +1,4 @@
-/* Component Stylesheet 
+/* Component Stylesheet
 ============================================================
 ============================================================*/
 body{
@@ -11,7 +11,7 @@ header{
 }
 
 section{
-	background-image: url('images/2.jpg');
+	background-image: url('../images/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
