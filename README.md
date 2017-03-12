@@ -20,7 +20,7 @@ This repo serves as my Portfolio.
 
   This folder contains working demos of angular 1.
 
-* [Here](https://github.com/seanedw1/Portfolio/tree/master/Angular)
+* [](https://github.com/seanedw1/Portfolio/tree/master/Angular)
 
 ## FrontEnd
 
