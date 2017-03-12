@@ -5,7 +5,7 @@
 
 ## Table of contents
 
-* [Jquery weather service](#Demo1)
+* [Jquery weather service](#jquery-weather-service)
 * [Google maps api](#google-maps-api)
 * [Jquery todo list](#jquery-todo-list)
 
