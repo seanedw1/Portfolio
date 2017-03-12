@@ -26,7 +26,10 @@ This repo serves as my Portfolio.
 
 This folder contains working demos of front end components and wireframes.
 
-* [illustrator mock flight finder invision app](https://projects.invisionapp.com/share/K661KKVVB#/screens)
+* [Illustrator mock flight finder](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/Component1)
+* [Html & css footer](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/Component2)
+* [# Html & css Cta(jumbotron)
+](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/Component3)
 
 ## Javascript
 
