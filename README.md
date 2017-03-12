@@ -20,24 +20,24 @@ This repo serves as my Portfolio.
 
   This folder contains working demos of angular 1.
 
-
-
 * [Employee system](https://github.com/seanedw1/Portfolio/tree/readme/Angular/Demo1)
 
 ## FrontEnd
 
 This folder contains working demos of front end components and wireframes.
 
-* [Here](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd)
+* [illustrator mock flight finder invision app](https://projects.invisionapp.com/share/K661KKVVB#/screens)
 
 ## Javascript
 
 This folder contains working javascript demos.
 
-* [Here](https://github.com/seanedw1/Portfolio/tree/master/Javascript)
+* [Jquery ajax call](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo1)
+* [Google maps api](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo2)
+* [Jquery todo list](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo3)
 
 ## Node
-* [Here](https://github.com/seanedw1/Portfolio/tree/master/Node)
+* [Jwt api](https://github.com/seanedw1/Portfolio/tree/readme/Node/Demo1)
 
 ## PHP
 * [Here](https://github.com/seanedw1/Portfolio/tree/master/Php)
