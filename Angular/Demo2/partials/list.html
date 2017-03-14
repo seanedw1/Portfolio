@@ -1,0 +1,12 @@
+<div class="wrapper">
+<ul>
+    <li ng-repeat="num in songArray track by $index">
+        <p><a href="#/details/{{$index}}">{{num.title}}</a></p>
+        <p>by: {{num.artist}}</p>
+        <p>rating: {{num.rating}}</p>
+        <button ng-click="">Edit</button>
+        <button ng-click="removeSong($index)">Remove</button>
+    
+    </li>
+</ul>
+</div>
