@@ -21,6 +21,8 @@ This repo serves as my Portfolio.
   This folder contains working demos of angular 1.
 
 * [Employee system](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo1)
+* [Song Playlist tool](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo2)
+
 
 ## FrontEnd
 
@@ -60,6 +62,7 @@ Github pages
 * [React Native classifieds app](https://github.com/seanedw1/FsClass)
 * [Debugging npm package](https://github.com/seanedw1/remer)
 * [Ionic and firebase chat app](https://github.com/seanedw1/smsapp1)
+
 
 ## Social media
 
