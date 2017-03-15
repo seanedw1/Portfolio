@@ -1,10 +1,9 @@
 <!DOCTYPE>
 <html>
 <head>
-	<title>sean mid term 2</title>
+	<title></title>
 </head>
 <body>
-<!-- sean edwards -->
 <form action="" method="post">
 <h1>Enter Student Grades</h1>
 <br>
@@ -41,19 +40,13 @@
 			$result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 			foreach ($result as $row) {
-				echo 
+				echo
 				'<tr><td>'.$row['studentid'].'</td><td>'.$row['studentsName'].'</td><td>'.$row['studentsPercent'].'</td><td>'.$row['studentsLetterGrade'].'</td>
 				<td><a href="delete.php?id='.$row['studentid'].'">Delete</a></td>';
 			}
 
 
 if(isset($_POST["submit"])){
-
- // > greater than
- // < less than
- // >=greater than or equal to
- // <=less than or equal to
-
 	if((($_POST["studentsName"] !=null) && (is_string($_POST["studentsName"]))) && (($_POST["studentsPercent"] != null)
 		&& (is_numeric($_POST["studentsPercent"])))) {
 		//if studends percent is greater than 0 but less than 100
@@ -85,17 +78,17 @@ if(isset($_POST["submit"])){
 	$dbh = new PDO("mysql:host=localhost;dbname=myssl;port=8889",$user,$pass);
 $sth = $dbh->prepare("INSERT INTO grades(studentsName, studentsPercent,studentsLetterGrade) value(:name, :percent, :letter)");
 	$sth -> execute($data);
-				
-	header('Location: studentsinclass.php');
+
+	header('Location: index.php');
 			}
 
 	}else{
-		//if no number is inputted
+		// if no number is inputted
 		echo "<p>Please input a grade percentage between 0-100</p>";
 	}
 
 	}else{
-
+		//
 		echo "<p>Please  make sure that put a name and a percentage</p>";
 	 }
 
