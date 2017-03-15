@@ -1,5 +1,3 @@
-<!--sean edwards-->
-
 <!doctype html>
 <html>
     <head lang="en">
@@ -8,8 +6,8 @@
     </head>
     <body>
         <h2>Form</h2>
-        <form action="activity2_2validate.php" method="post" enctype="multipart/form-data">
-              Select File: <input type="file" name="userfile" /><br />
+        <form action="form.php" method="post" enctype="multipart/form-data">
+            Select File: <input type="file" name="userfile"/><br />
             School Email: <input type="email" name="school_email" value="" required /><br />
             Personal Email: <input type="email" name="personal_email" value="" required /><br />
             Username: <input type="text" name="username" value="" required /><br />

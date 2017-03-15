@@ -1,5 +1,3 @@
-<!--sean edwards-->
-
 <?php
 if (isset($_POST["submit"])) {
   $filebasename = basename($_FILES['userfile']['name']);
@@ -21,4 +19,4 @@ if (isset($_POST["submit"])) {
   }
 }
 ?>
-<?php require_once("activity2_2form.php");?>
+<?php require_once("index.php");?>
