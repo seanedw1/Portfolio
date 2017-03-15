@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>sean 4-2</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <!-- sean edwards -->
+
+  <h2> sign-up for a Membership </h2>
+    <form action="signup.php" enctype="multipart/form-data" method="post" id="first"/>
+    <h3>registration form</h3>
+    <p>Please Upload a avatar in jpg, png, or gif format.<br/>
+      Select File: <input type="file" name="userfile" />
+    </p>
+    <p> Enter full name.  <br /><br />
+      <label>First: </label>
+      <input type="text" name="fname" value="" />
+      <label>Last: </label>
+      <input type="text" name="lname" value="" />
+    </p>
+    <p> Please enter your emails. <br /><br />
+      <label>Main: </label>
+      <input type="email" name="school_email" placeholder="example@fullsail.com" required />
+      <label>Secondary: </label>
+      <input type="email" name="alt_email" placeholder="optional"  />
+    </p>
+    <p><br>
+      <label>Create a Username: </label>
+      <input type="text" name="username"  placeholder="" required />
+    </p>
+    <p><br>
+      <label>  Password: </label>
+      <input type="password" name="password" placeholder="Create a password"/>
+      <input type="password" name="password" placeholder="confirm password"/>
+    </p>
+    <input type="submit" name="submit" value="Sign Up" id="submit" />
+  </form><br><br>
+
+  <form action="login.php" enctype="multipart/form-data" method="post">
+    <fieldset>
+      <legend> Already a Memeber? login...</legend>
+
+      <p>
+        <label for="username_li">Username: </label><input type="text" name="username_li" id="username_li">
+      </p>
+      <p>
+        <label for="password_li">Password: </label><input type="password" name="password_li" id="password_li">
+        <p class="rel">
+          <button type="submit" class="right">Submit</button>
+        </p>
+      </p>
+
+    </fieldset>
+  </form>
+
+</body>
+</html>
