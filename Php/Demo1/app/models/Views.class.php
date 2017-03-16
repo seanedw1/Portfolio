@@ -1,11 +1,12 @@
 <?
 
 class Views{
-	
-	function getView($filename="",$data=array()){
-		
-	include $filename;
+
+	function getView($view,$data=array()){
+
+		require 'app/views/' . $view . '.php';
 }
+
 
 
 }

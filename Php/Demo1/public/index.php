@@ -1,5 +1,5 @@
 <?php
 
-include("app/controllers/Action_controller.php");
+include("/app/controllers/Action_controller.php");
 
 ?>
