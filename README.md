@@ -22,6 +22,7 @@ This repo serves as my Portfolio.
 
 * [Employee system](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo1)
 * [Song Playlist tool](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo2)
+* [Shopping list](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo3)
 
 
 ## FrontEnd
