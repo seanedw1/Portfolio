@@ -9,7 +9,7 @@ $scope.employees = $firebaseArray(ref);
 
 $scope.addEmployee = function() {
     $scope.employees.$add({
-      Employee: $scope.employee.name,
+      name: $scope.employee.name,
       number: $scope.employee.num,
       title: $scope.employee.title,
       street: $scope.employee.street,

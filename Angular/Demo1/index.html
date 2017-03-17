@@ -15,9 +15,9 @@
     <div>
         <form ng-submit="addEmployee()"  name="myForm">
             <h1>Add Employee</h1>
-            <h5>Total employees: <span>{{dataArr.length}}</span></h5>
+            <h5>Total employees: <span>{{employees.length}}</span></h5>
 
-            <label>Employee:</label>
+            <label>Name:</label>
             <input type="text" ng-model="employee.name" />
 
             <label>Phone Number:</label>
@@ -49,13 +49,13 @@
                 <th>State</th>
                 <th>remove Employee</th>
             </tr>
-            <tr ng-repeat="item in dataArr track by $index">
+            <tr ng-repeat="item in employees">
                 <td>{{ item.name }}</td>
-                <td>{{ item.num}} </td>
-                <td>{{item.position}}</td>
+                <td>{{ item.number}} </td>
+                <td>{{item.title}}</td>
                 <td> {{item.street}}</td>
-                <td> {{item.city}}</td>
-                <td> {{item.state}}</td>
+                <td> {{item.City}}</td>
+                <td> {{item.State}}</td>
                 <td><button ng-click="removeEmployee($index)">Remove Employee</button></td>
             </tr>
         </table>
