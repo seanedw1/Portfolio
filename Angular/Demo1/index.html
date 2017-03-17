@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app='employeeApp'>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
-<body ng-app='employeeApp' ng-controller='employeeController'>
+<body ng-controller='employeeController'>
     <div>
         <form ng-submit="addEmployee()">
             <h1>Add Employee</h1>
@@ -23,8 +23,8 @@
             <label>Phone Number:</label>
             <input type="text" ng-model="employee.num" />
 
-            <label>Position:</label>
-            <input type="text" ng-model="employee.position" />
+            <label>Title:</label>
+            <input type="text" ng-model="employee.title" />
 
             <label> street:</label>
             <input type="text" ng-model="employee.street" />
@@ -43,7 +43,7 @@
             <tr>
                 <th>Employee name</th>
                 <th>Number</th>
-                <th>Position</th>
+                <th>Title</th>
                 <th>Street</th>
                 <th>City</th>
                 <th>State</th>

@@ -1,49 +1,22 @@
 var app = angular.module('employeeApp', ['firebase']);
 
-app.controller('employeeController', function($scope, employeeService) {
+app.controller('employeeController', function($scope, $firebaseArray) {
 
 var ref = firebase.database().ref().child('employees');
 
 $scope.employees = $firebaseArray(ref);
 
-    $scope.addEmployee = function() {
-        employeeService.addEmployee($scope.employee);
-        $scope.employee = {};
-    }
 
-    $scope.removeEmployee = function(pIndex) {
-        employeeService.removeEmployee(pIndex);
-    }
-
-});
-
-app.service('employeeService', function() {
-    dataArr = [];
-
-    this.getEmployee = function() {
-        var str = localStorage.getItem("candyLs");
-        dataArr = JSON.parse(str) || dataArr;
-        return dataArr;
-    }
-
-    this.addEmployee = function(pData) {
-
-        dataArr.push(pData);
-        var str = JSON.stringify(dataArr);
-        localStorage.setItem("candyLs", str);
-    };
-
-    this.removeEmployee = function(pIndex) {
-        dataArr.splice(pIndex, 1);
-        var str = JSON.stringify(dataArr);
-        localStorage.setItem("candyLs", str);
-    }
-});
-
-var delSel = function() {
-    if (document.getElementByClass(dataArr) = checked = true) {
-        console.log('working')
-    } else {
-        console.log('not working')
-    };
+$scope.addEmployee = function() {
+    $scope.employees.$add({
+      Employee: $scope.employee.name,
+      Phone number: $scope.employee.num,
+      title: $scope.employee.title,
+      street: $scope.employee.street,
+      City: $scope.employee.city,
+      State: $scope.employee.state,
+    });
 };
+
+// closes employeeController
+)};
