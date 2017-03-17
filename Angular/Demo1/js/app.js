@@ -10,13 +10,13 @@ $scope.employees = $firebaseArray(ref);
 $scope.addEmployee = function() {
     $scope.employees.$add({
       Employee: $scope.employee.name,
-      Phone number: $scope.employee.num,
+      number: $scope.employee.num,
       title: $scope.employee.title,
       street: $scope.employee.street,
       City: $scope.employee.city,
-      State: $scope.employee.state,
+      State: $scope.employee.state
     });
 };
 
 // closes employeeController
-)};
+});

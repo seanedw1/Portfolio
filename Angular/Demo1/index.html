@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html ng-app='employeeApp'>
+<html ng-app="employeeApp">
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
@@ -13,7 +13,7 @@
 
 <body ng-controller='employeeController'>
     <div>
-        <form ng-submit="addEmployee()">
+        <form ng-submit="addEmployee()"  name="myForm">
             <h1>Add Employee</h1>
             <h5>Total employees: <span>{{dataArr.length}}</span></h5>
 
@@ -36,7 +36,7 @@
             <input type="text" ng-model="employee.state" />
 
             <label></label>
-            <input type="submit" value="Add Employee" />
+            <button type="submit" ng-disabled="myForm.$invalid"> Add Employee </button>
         </form>
 
         <table>
