@@ -1,8 +1,10 @@
 var app = angular.module('employeeApp', ['firebase']);
 
 app.controller('employeeController', function($scope, employeeService) {
-    $scope.employee = {};
-    $scope.dataArr = employeeService.getEmployee();
+
+var ref = firebase.database().ref().child('employees');
+
+$scope.employees = $firebaseArray(ref);
 
     $scope.addEmployee = function() {
         employeeService.addEmployee($scope.employee);
