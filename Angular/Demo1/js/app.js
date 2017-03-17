@@ -17,6 +17,5 @@ $scope.addEmployee = function() {
       State: $scope.employee.state
     });
 };
-
 // closes employeeController
 });
