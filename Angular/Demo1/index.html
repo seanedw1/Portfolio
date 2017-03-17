@@ -1,36 +1,37 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
-    <script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js">
+<head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js">
     </script>
-        <script type='text/javascript' src="js/app.js"></script>
+    <script type='text/javascript' src="js/app.js"></script>
     <title>Employee directory</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body ng-app='employeeApp' ng-controller='employeeController'>
+</head>
+
+<body ng-app='employeeApp' ng-controller='employeeController'>
     <div>
         <form ng-submit="addEmployee()">
-        <h1>Add Employee</h1>
-        <h5>Total employees: <span>{{dataArr.length}}</span></h5>
+            <h1>Add Employee</h1>
+            <h5>Total employees: <span>{{dataArr.length}}</span></h5>
 
             <label>Employee:</label>
-            <input type="text" ng-model="employee.name"/>
+            <input type="text" ng-model="employee.name" />
 
             <label>Phone Number:</label>
-            <input type="text"  ng-model="employee.num"/>
+            <input type="text" ng-model="employee.num" />
 
             <label>Position:</label>
-            <input type="text" ng-model="employee.position"/>
+            <input type="text" ng-model="employee.position" />
 
             <label> street:</label>
-            <input type="text" ng-model="employee.street"/>
-            
+            <input type="text" ng-model="employee.street" />
+
             <label>City:</label>
-            <input type="text" ng-model="employee.city"/>
-        
+            <input type="text" ng-model="employee.city" />
+
             <label>State:</label>
-            <input type="text" ng-model="employee.state"/>
-      
+            <input type="text" ng-model="employee.state" />
+
             <label></label>
             <input type="submit" value="Add Employee" />
         </form>
@@ -46,15 +47,16 @@
                 <th>remove Employee</th>
             </tr>
             <tr ng-repeat="item in dataArr track by $index">
-                <td>{{   item.name   }}</td>
-                <td>{{  item.num}} </td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.num}} </td>
                 <td>{{item.position}}</td>
                 <td> {{item.street}}</td>
-                <td>  {{item.city}}</td>
+                <td> {{item.city}}</td>
                 <td> {{item.state}}</td>
                 <td><button ng-click="removeEmployee($index)">Remove Employee</button></td>
             </tr>
         </table>
-        </div>
-    </body>
+    </div>
+</body>
+
 </html>

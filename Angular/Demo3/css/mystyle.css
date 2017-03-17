@@ -1,79 +1,69 @@
-body{
-	color:white;
-	background-image: url('../images/bg.jpg');
-	background-size: cover;
+body {
+    color: white;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
 }
 
-
-div{
-	padding-right: 20px;
-	width: 400px;
-	float: left;
-	margin-top: 20px;
-	overflow: auto;
+div {
+    padding-right: 20px;
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+    overflow: auto;
 }
 
-#wrapper{
-width:900px;
-background-color: rgba(0, 0, 0, 0.7);
-overflow: auto;
+#wrapper {
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
 }
 
-
-h1{
-text-align: center;;
+h1 {
+    text-align: center;
 }
 
-
-li{
-	list-style-type: none;
-	background-color:rgba(0, 181, 204, 0.70);
-	border-radius: 1px;
-	color: white;
-	padding: 5px;
-	margin-bottom: 3px;
+li {
+    list-style-type: none;
+    background-color: rgba(0, 181, 204, 0.70);
+    border-radius: 1px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 3px;
 }
 
-#addnew{
-		background-color:rgba(0, 181, 204, 0.70);
-	border-radius: 5px;
-
+#addnew {
+    background-color: rgba(0, 181, 204, 0.70);
+    border-radius: 5px;
 }
 
-
-.dele{
-	margin-left:240px;
-
-
+.dele {
+    margin-left: 240px;
 }
 
-.dele:hover{
-	background-color: red;
-	border-radius: 5px;
+.dele:hover {
+    background-color: red;
+    border-radius: 5px;
 }
 
-label{
-	text-align: center;
+label {
+    text-align: center;
 }
 
-span{
-	padding: 1px;
-	border-radius: 8px;
-	margin-left: 5px;
-		background-color:rgba(0, 181, 204, 0.70);
-
+span {
+    padding: 1px;
+    border-radius: 8px;
+    margin-left: 5px;
+    background-color: rgba(0, 181, 204, 0.70);
 }
 
-input:last-of-type{
-	margin-bottom: 25px;
-
-
+input:last-of-type {
+    margin-bottom: 25px;
 }
 
-form{
-	text-align: center;
+form {
+    text-align: center;
 }
 
-input:focus{
-	border: 1px solid #04bac8;
+input:focus {
+    border: 1px solid #04bac8;
 }

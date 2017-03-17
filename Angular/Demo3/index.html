@@ -1,48 +1,50 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shopping list</title>
-<link href="css/mystyle.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
-<script type="text/javascript" src="js/main.js"> </script>
+    <title>Shopping list</title>
+    <link href="css/mystyle.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+    <script type="text/javascript" src="js/main.js">
+    </script>
 </head>
+
 <body ng-app="shopList" ng-controller="shopL">
-	<div id="wrapper">
-	<div>
-		<h1>Add item</h1>
-		<form ng-submit="formSubmit()">
-	<label>
+    <div id="wrapper">
+        <div>
+            <h1>Add item</h1>
+            <form ng-submit="formSubmit()">
+                <label>
 		Item Name:<br>
 		<input type="text" ng-model="rRay.name"/>
 	</label><br>
 
-	<label>
+                <label>
 item price:<br>
 <input type="text" ng-model="rRay.price" />
 </label><br>
 
-<label>
+                <label>
 Item aisle:<br>
 <input type="text" ng-model="rRay.aisle" />
 </label><br>
-	<button type="submit" id="addnew">Add new item</button><br>
-	</form>
+                <button type="submit" id="addnew">Add new item</button><br>
+            </form>
 
-	</div>
-	
-<div>
-	<h1>Shopping List<span>{{itemArray.length}}</span></h1>
-<ul>
-		<li ng-repeat="item in itemArray track by $index">{{item.name}} ({{item.price|currency}}) 
-			(Aisle{{" " +item.aisle}})<button ng-click="deleteItem($index)"class="dele">x</button>
-</li>
+        </div>
 
-	</ul>
-</div>
-	</div><!==end of wrapper ==!>
-	
+        <div>
+            <h1>Shopping List<span>{{itemArray.length}}</span></h1>
+            <ul>
+                <li ng-repeat="item in itemArray track by $index">{{item.name}} ({{item.price|currency}}) (Aisle{{" " +item.aisle}})<button ng-click="deleteItem($index)" class="dele">x</button>
+                </li>
+
+            </ul>
+        </div>
+    </div>
 </body>
+
 </html>
