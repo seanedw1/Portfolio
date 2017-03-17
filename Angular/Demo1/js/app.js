@@ -1,4 +1,4 @@
-var app = angular.module('employeeApp', []);
+var app = angular.module('employeeApp', ['firebase']);
 
 app.controller('employeeController', function($scope, employeeService) {
     $scope.employee = {};
