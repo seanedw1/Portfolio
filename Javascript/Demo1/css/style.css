@@ -1,55 +1,55 @@
 @charset "UTF-8";
+
 /* CSS Document */
 
-body{
-	font-family: Arial, Helvetica, sans-serif;
-	background-image: url(../img/gohan.png);
-	background-size: 300px;
-	background-repeat: repeat-x;
-	background-color:#9ED6FF;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/gohan.png);
+    background-size: 300px;
+    background-repeat: repeat-x;
+    background-color: #9ED6FF;
 }
 
-#container{
-	background-color:#7174ad;
-	width: 70%;
-	margin: 0 auto;
-	overflow: auto;
-	border-radius: 25px;
+#container {
+    background-color: #7174ad;
+    width: 70%;
+    margin: 0 auto;
+    overflow: auto;
+    border-radius: 25px;
 }
 
 .left {
-	width: 35%;
-	padding: 5%;
-	float: left;
+    width: 35%;
+    padding: 5%;
+    float: left;
 }
 
 .right {
-	width: 45%;
-	padding: 2%;
-	float: right;
+    width: 45%;
+    padding: 2%;
+    float: right;
 }
 
 h1 {
-	font-size: 72px;
-	font-family: 'Yesteryear', cursive;
-	text-align: center;
-	padding: 2%;
+    font-size: 72px;
+    font-family: 'Yesteryear', cursive;
+    text-align: center;
+    padding: 2%;
 }
 
 h2 {
-	text-align: center;
+    text-align: center;
 }
 
-
-.current{
-	background-color:#e1dde4;
-	padding-left: 18px;
-	border-radius: 25px;
-	margin: 0 auto;
-	width: 250px;
-	border: 1px solid black;
+.current {
+    background-color: #e1dde4;
+    padding-left: 18px;
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 250px;
+    border: 1px solid black;
 }
 
-footer p{
-	text-align: center;
+footer p {
+    text-align: center;
 }
