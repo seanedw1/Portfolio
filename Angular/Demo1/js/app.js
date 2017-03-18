@@ -16,6 +16,12 @@ $scope.addEmployee = function() {
       City: $scope.employee.city,
       State: $scope.employee.state
     });
+    $scope.employee.name = "";
+    $scope.employee.num = "";
+    $scope.employee.title = "";
+    $scope.employee.street = "";
+    $scope.employee.city = "";
+    $scope.employee.state = "";
 };
 // closes employeeController
 });
