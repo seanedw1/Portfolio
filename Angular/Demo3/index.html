@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,43 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shopping list</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link href="css/mystyle.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
     <script type="text/javascript" src="js/main.js">
     </script>
 </head>
 
 <body ng-app="shopList" ng-controller="shopL">
-    <div id="wrapper">
+    <div id="wrapper" class="">
         <div>
-            <h1>Add item</h1>
-            <form ng-submit="formSubmit()">
-                <label>
-		Item Name:<br>
-		<input type="text" ng-model="rRay.name"/>
-	</label><br>
-
-                <label>
-item price:<br>
-<input type="text" ng-model="rRay.price" />
-</label><br>
-
-                <label>
-Item aisle:<br>
-<input type="text" ng-model="rRay.aisle" />
-</label><br>
-                <button type="submit" id="addnew">Add new item</button><br>
-            </form>
-
+            <h1 class="text-center">Add item</h1>
+            <form ng-submit="formSubmit()" name="myForm">
+  <div class="form-group">
+    <label for="itemName">Item Name:</label>
+    <input type="text" class="form-control" id="itemName" placeholder="Item name" ng-model="rRay.name">
+  </div>
+  <div class="form-group">
+    <label for="itemPrice">item price:</label>
+    <input type="number" class="form-control" id="itemPrice" placeholder="Item Price" ng-model="rRay.price">
+  </div>
+  <div class="form-group">
+    <label for="itemAisle">Item aisle:</label>
+    <input type="text" class="form-control" id="itemAisle" placeholder="Item aisle" ng-model="rRay.aisle">
+  </div>
+      <button type="submit" class="btn btn-success" ng-disabled="myForm.$invalid">Add new item</button>
+</form>
         </div>
-
         <div>
             <h1>Shopping List<span>{{itemArray.length}}</span></h1>
-            <ul>
-                <li ng-repeat="item in itemArray track by $index">{{item.name}} ({{item.price|currency}}) (Aisle{{" " +item.aisle}})<button ng-click="deleteItem($index)" class="dele">x</button>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success" ng-repeat="item in itemArray track by $index">{{item.name}} ({{item.price|currency}}) (Aisle{{" " +item.aisle}})<button ng-click="deleteItem($index)" class="btn btn-danger ">x</button>
                 </li>
-
-            </ul>
         </div>
     </div>
 </body>

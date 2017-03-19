@@ -1,5 +1,4 @@
 body {
-    color: white;
     background-image: url('../images/bg.jpg');
     background-size: cover;
 }
@@ -13,57 +12,30 @@ div {
 }
 
 #wrapper {
-    width: 900px;
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.7);
     overflow: auto;
+    margin: 0 auto;
+    margin-top:50px;
+    float: none;
+    padding:20px;
 }
 
-h1 {
-    text-align: center;
-}
-
-li {
-    list-style-type: none;
-    background-color: rgba(0, 181, 204, 0.70);
-    border-radius: 1px;
-    color: white;
-    padding: 5px;
-    margin-bottom: 3px;
-}
-
-#addnew {
-    background-color: rgba(0, 181, 204, 0.70);
-    border-radius: 5px;
-}
-
-.dele {
-    margin-left: 240px;
-}
-
-.dele:hover {
-    background-color: red;
-    border-radius: 5px;
-}
-
-label {
-    text-align: center;
+h1{
+  color: #FFF;
 }
 
 span {
     padding: 1px;
     border-radius: 8px;
     margin-left: 5px;
-    background-color: rgba(0, 181, 204, 0.70);
+    background-color:#0BB4F2;
 }
 
-input:last-of-type {
-    margin-bottom: 25px;
-}
-
-form {
-    text-align: center;
+label {
+  color: #0BB4F2;
 }
 
 input:focus {
-    border: 1px solid #04bac8;
+    border: 1px solid #0BB4F2;
 }
