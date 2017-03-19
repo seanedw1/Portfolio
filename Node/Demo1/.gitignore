@@ -1,8 +1,0 @@
-.DS_store
-node_modules
-.env
-.env.json
-*.logs
-*.log
-out
-build

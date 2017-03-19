@@ -9,7 +9,6 @@ This repo serves as my Portfolio.
 * [Angular](#angular)
 * [FrontEnd](#frontend)
 * [Javascript](#javascript)
-* [Node](#node)
 * [PHP](#php)
 * [Gh-pages](#gh-pages)
 * [Featured repos](#featured-repos)
@@ -42,8 +41,6 @@ This folder contains working javascript demos.
 * [Google maps api](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo2)
 * [Jquery todo list](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo3)
 
-## Node
-* [Jwt api](https://github.com/seanedw1/Portfolio/tree/master/Node/Demo1)
 
 ## PHP
 * [Weather api](https://github.com/seanedw1/Portfolio/tree/master/Php/Demo1)
