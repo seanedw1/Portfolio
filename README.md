@@ -37,9 +37,9 @@ This folder contains working demos of front end components and wireframes.
 
 This folder contains working javascript demos.
 
-* [Jquery ajax call](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo1)
-* [Google maps api](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo2)
-* [Jquery todo list](https://github.com/seanedw1/Portfolio/tree/master/Javascript/Demo3)
+* [Jquery ajax call](https://github.com/seanedw1/Portfolio/tree/master/Javascript/weatherApi)
+* [Google maps api](https://github.com/seanedw1/Portfolio/tree/master/Javascript/mapsApi)
+* [Jquery todo list](https://github.com/seanedw1/Portfolio/tree/master/Javascript/jqueryTodo)
 
 
 ## PHP
