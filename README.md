@@ -12,6 +12,7 @@ This repo serves as my Portfolio.
 * [PHP](#php)
 * [Gh-pages](#gh-pages)
 * [Featured repos](#featured-repos)
+* [Contact](#contact)
 * [Social media](#social-media)
 * [contributors](#contributors)
 
@@ -61,6 +62,9 @@ Github pages
 * [Debugging npm package](https://github.com/seanedw1/remer)
 * [Ionic and firebase chat app](https://github.com/seanedw1/smsapp1)
 
+# Contact
+Phone number: (407)-452-2994
+Email: seaned14@gmail.com
 
 ## Social media
 
