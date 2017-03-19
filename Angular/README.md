@@ -13,15 +13,15 @@
 
 ## Employee system
 
-* [Files](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo1)
-* [Live demo](https://seanedw1.github.io/Portfolio/Angular/Demo1/index.html)
+* [Files](https://github.com/seanedw1/Portfolio/tree/master/Angular/EmployeeDirect)
+* [Live demo](https://seanedw1.github.io/Portfolio/Angular/EmployeeDirect/index.html)
 
 ## Song Playlist
 
-* [Files](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo2)
-* [Live demo](https://seanedw1.github.io/Portfolio/Angular/Demo2/index.html)
+* [Files](https://github.com/seanedw1/Portfolio/tree/master/Angular/Playlist)
+* [Live demo](https://seanedw1.github.io/Portfolio/Angular/Playlist/index.html)
 
 ## Shopping list
 
-* [Files](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo3)
-* [Live demo](https://seanedw1.github.io/Portfolio/Angular/Demo3/index.html)
+* [Files](https://github.com/seanedw1/Portfolio/tree/master/Angular/groceryList)
+* [Live demo](https://seanedw1.github.io/Portfolio/Angular/groceryList/index.html)

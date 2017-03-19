@@ -19,9 +19,9 @@ This repo serves as my Portfolio.
 
   This folder contains working demos of angular 1.
 
-* [Employee system](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo1)
-* [Song Playlist tool](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo2)
-* [Shopping list](https://github.com/seanedw1/Portfolio/tree/master/Angular/Demo3)
+* [Employee system](https://github.com/seanedw1/Portfolio/tree/master/Angular/EmployeeDirect)
+* [Song Playlist tool](https://github.com/seanedw1/Portfolio/tree/master/Angular/Playlist)
+* [Shopping list](https://github.com/seanedw1/Portfolio/tree/master/Angular/groceryList)
 
 
 ## FrontEnd
