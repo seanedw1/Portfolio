@@ -63,8 +63,8 @@ Github pages
 * [Ionic and firebase chat app](https://github.com/seanedw1/smsapp1)
 
 # Contact
-Phone number: (407)-452-2994
-Email: seaned14@gmail.com
+* Phone: (407)-452-2994
+* Email: seaned14@gmail.com
 
 ## Social media
 
