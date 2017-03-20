@@ -29,10 +29,10 @@ This repo serves as my Portfolio.
 
 This folder contains working demos of front end components and wireframes.
 
-* [Illustrator mock flight finder](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/Component1)
-* [Html & css footer](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/Component2)
+* [Illustrator mock flight finder](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/flightFinder)
+* [Html & css footer](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/footer)
 * [Html & css Cta(jumbotron)
-](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/Component3)
+](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/Jumbotron)
 
 ## Javascript
 

@@ -2,4 +2,4 @@
 
 [Back](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd)
 
-* [Live demo](https://seanedw1.github.io/Portfolio/FrontEnd/Component3/index.html)
+* [Live demo](https://seanedw1.github.io/Portfolio/FrontEnd/Jumbotron/index.html)
