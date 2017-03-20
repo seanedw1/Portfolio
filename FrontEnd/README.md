@@ -1,6 +1,6 @@
-# Front end
-
 [Back to home](https://github.com/seanedw1/Portfolio)
+
+# Front end
 
 ## Table of contents
 

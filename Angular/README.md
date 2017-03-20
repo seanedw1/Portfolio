@@ -1,6 +1,6 @@
-# Angular
-
 [Back to home](https://github.com/seanedw1/Portfolio)
+
+# Angular
 
 ## Table of contents
 
