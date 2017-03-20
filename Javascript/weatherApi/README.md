@@ -12,4 +12,4 @@
 
 * [Jquery](https://jquery.com/)
 * [Google fonts](https://fonts.google.com/)
-* [Weather underground API](www.wunderground.com)
+* [Weather underground API](https://www.wunderground.com/)

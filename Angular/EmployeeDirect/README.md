@@ -6,7 +6,7 @@ This project contains an angular and firebase employee database system the datab
 
 ## Table of contents
 
-* [Project dependencies](#project dependencies)
+* [Project dependencies](#project-dependencies)
 * [Db file](#student-grading-system)
 * [Live demo](https://seanedw1.github.io/Portfolio/Angular/EmployeeDirect/index.html)
 

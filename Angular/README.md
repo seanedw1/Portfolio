@@ -5,8 +5,8 @@
 ## Table of contents
 
 * [Employee system](#employee-system)
-* [Song Playlist](#Song-playlist)
-* [Shopping list](#Shopping-list)
+* [Song Playlist](#song-playlist)
+* [Shopping list](#shopping-list)
 
 
 

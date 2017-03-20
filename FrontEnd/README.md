@@ -4,9 +4,9 @@
 
 ## Table of contents
 
-* [Adobe illustrator mock flight finder](#Component1)
-* [Html & css footer](#Component2)
-* [Html & css Cta(jumbotron)](#Component3)
+* [Adobe illustrator mock flight finder](#adobe-illustrator-mock-flight-finder)
+* [Html & css footer](#html--css-footer)
+* [Html & css Cta(jumbotron)](#html--css-ctajumbotron)
 
 ## Adobe illustrator mock flight finder
 * [Files](https://github.com/seanedw1/Portfolio/tree/master/FrontEnd/flightFinder)
