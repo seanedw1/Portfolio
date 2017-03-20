@@ -44,10 +44,10 @@ This folder contains working javascript demos.
 
 
 ## PHP
-* [Weather api](https://github.com/seanedw1/Portfolio/tree/master/Php/Demo1)
-* [Student grading system](https://github.com/seanedw1/Portfolio/tree/master/Php/Demo2)
-* [Form Validation](https://github.com/seanedw1/Portfolio/tree/master/Php/Demo3)
-* [Signup & Login](https://github.com/seanedw1/Portfolio/tree/master/Php/Demo4)
+* [Weather api](https://github.com/seanedw1/Portfolio/tree/master/Php/mvcApi)
+* [Student grading system](https://github.com/seanedw1/Portfolio/tree/master/Php/studentGrading)
+* [Form Validation](https://github.com/seanedw1/Portfolio/tree/master/Php/formValidate)
+* [Signup & Login](https://github.com/seanedw1/Portfolio/tree/master/Php/signupLogin)
 
 
 ## Gh-pages
