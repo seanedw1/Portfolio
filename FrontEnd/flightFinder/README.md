@@ -2,4 +2,12 @@
 
 # Mock flight finder
 
-* [illustrator mock flight finder invision app](https://invis.io/K661KKVVB)
+## Table of contents
+
+* [Project dependencies](#project-dependencies)
+* [Invision demo](https://invis.io/K661KKVVB)
+
+
+## Project dependencies
+
+* [Invision](https://angularjs.org/)
