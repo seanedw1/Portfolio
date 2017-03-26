@@ -18,7 +18,7 @@ I’m Sean Edwards an aspiring Jr. web developer based out of Orlando, fl. The p
 
 ## Angular
 
-  This folder contains working demos of angular 1.
+Angular is a lightweight front-end web framework. Angular extends HTML attributes.
 
 * [Employee system](https://github.com/seanedw1/Portfolio/tree/master/Angular/EmployeeDirect)
 * [Song Playlist tool](https://github.com/seanedw1/Portfolio/tree/master/Angular/Playlist)
