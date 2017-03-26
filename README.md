@@ -1,8 +1,8 @@
 # Sean Edwards: Portfolio
 
 ## Purpose
-This repo serves as my Portfolio.
 
+I’m Sean Edwards an aspiring Jr. web developer based out of Orlando, fl. The purpose of this repo is to display a collection of my works. This includes HTML, CSS, JavaScript, PHP, Angular, and JQUERY code examples.
 
 ## Table of contents
 
