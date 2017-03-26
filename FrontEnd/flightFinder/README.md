@@ -10,4 +10,4 @@
 
 ## Project dependencies
 
-* [Invision](https://angularjs.org/)
+* [Invision](https://www.invisionapp.com/)
